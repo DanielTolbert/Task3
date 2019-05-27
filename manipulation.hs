@@ -5,3 +5,4 @@ methTwo xss = map helperTwo $ xss
 
 boustrophedon xss = [ methOne x y | (x, y) <- zip xss [0..] ]
 
+mySum x y = x + y
